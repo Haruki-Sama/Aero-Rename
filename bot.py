@@ -48,21 +48,21 @@ HELP_TEXT = """
 <b><u>Show Thumbnail</u></b>
 ➠ Send /showthumb for view current thumbnail.
 
-Made by @Dlaize
+Made by @Shinpei_XD
 """
 ABOUT_TEXT = """
 **🎗️ Bot :** `RenameBot v2`
-**🎗️ Creator :** [Dlaize](https://telegram.me/Dlaize)
-**🎗️ Channel :** [Compass Bots](https://telegram.me/compass_botz)
-**🎗️ Source :** [Click here](https://github.com/dakshkohli23/Rename-Bot-V2)
+**🎗️ Creator :** [Shinpei](https://telegram.me/Shinpei_XD)
+**🎗️ Channel :** [Compass Bots](https://telegram.me/Official_Hindi_Anime)
+**🎗️ Source :** [Click here](https://github.com/Aaaakkkkbot/Aero-Rename)
 **🎗️ Language :** [Python3](https://python.org)
 **🎗️ Library :** [Pyrogram v1.2.0](https://pyrogram.org)
 **🎗️ Server :** [Heroku](https://heroku.com)
 """
 START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Index Channel', url='https://telegram.me/cartoon_seriesz'),
-        InlineKeyboardButton('Feedback', url='https://telegram.me/Dlaize')
+        InlineKeyboardButton('Index Channel', url='https://telegram.me/Official_Hindi_Anime'),
+        InlineKeyboardButton('Feedback', url='https://telegram.me/Shinpei_XD')
         ],[
         InlineKeyboardButton('♨️ Help', callback_data='help'),
         InlineKeyboardButton('ⓘ About', callback_data='about'),
@@ -159,7 +159,7 @@ async def save_photo(bot, update):
         )
         await bot.send_message(
             chat_id=update.chat.id,
-            text="<b>🖼️ Thumbnail Saved ☑️\nThis Is Permanent Until</b> /delthumb ",
+            text="<b>🖼️ Aero Thumbnail Saved ☑️\nThis Is Permanent Until</b> /delthumb ",
             reply_to_message_id=update.message_id
         )
 
@@ -178,7 +178,7 @@ async def delete_thumbnail(bot, update):
         pass
     await bot.send_message(
         chat_id=update.chat.id,
-        text="<b>🖼️ Thumbnail cleared succesfully🤦</b>",
+        text="<b>🖼️ aero Thumbnail cleared succesfully🤦</b>",
         reply_to_message_id=update.message_id
     )
 
@@ -206,7 +206,7 @@ async def show_thumb(bot, update):
     else:
         await bot.send_message(
             chat_id=update.chat.id,
-            text="<b>🖼️ No thumbnails found ☠️</b>",
+            text="<b>🖼️ Aero No thumbnails found ☠️</b>",
             reply_to_message_id=update.message_id
         )
 
