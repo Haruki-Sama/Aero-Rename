@@ -8,7 +8,7 @@ A Simple Telegram File or Media RenameBot v2 with Permanent Thumbnail Support
 
 ### Deploy on Heroku
 
-  <a href="https://heroku.com/deploy?template=https://github.com/dakshkohli23/Rename-Bot-V2">
+  <a href="https://heroku.com/deploy?template=https://github.com/Haruki-Sama/Aero-Rename
      <img src="https://www.herokucdn.com/deploy/button.svg">
   </a>
 
