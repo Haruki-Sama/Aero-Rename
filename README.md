@@ -1,4 +1,4 @@
-# Rename-Bot 
+# Aero Renmae 
 
 A Simple Telegram File or Media RenameBot v2 with Permanent Thumbnail Support
 
@@ -36,7 +36,4 @@ python3 bot.py
 
 ### Credits
 
-- [Fayas Noushad](https://github.com/FayasNoushad)
-- [Shrimadhav UK](https://github.com/SpEcHIDe)
-- [Pranav Govind](https://github.com/prgofficial)
-- [Pyrogram](https://github.com/pyrogram/pyrogram)
+- [Aero Deplover](https://github.com/aaaakkkkbot)
