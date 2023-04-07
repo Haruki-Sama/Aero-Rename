@@ -51,18 +51,18 @@ HELP_TEXT = """
 Made by @Dlaize
 """
 ABOUT_TEXT = """
-**🎗️ Bot :** `RenameBot v2`
-**🎗️ Creator :** [Dlaize](https://telegram.me/Dlaize)
-**🎗️ Channel :** [Compass Bots](https://telegram.me/compass_botz)
-**🎗️ Source :** [Click here](https://github.com/dakshkohli23/Rename-Bot-V2)
+**🎗️ Bot :** `Aero Bot`
+**🎗️ Creator :** [Shinpei](https://telegram.me/Shinpei_XD)
+**🎗️ Channel :** [Compass Bots](https://telegram.me/Aerobots_tm)
+**🎗️ Source :** [Click here](https://github.com/Haruki-Sama/Aero-Rename)
 **🎗️ Language :** [Python3](https://python.org)
 **🎗️ Library :** [Pyrogram v1.2.0](https://pyrogram.org)
 **🎗️ Server :** [Heroku](https://heroku.com)
 """
 START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Index Channel', url='https://telegram.me/cartoon_seriesz'),
-        InlineKeyboardButton('Feedback', url='https://telegram.me/Dlaize')
+        InlineKeyboardButton('Index Channel', url='https://telegram.me/Anime_Hindi_dub_Channel'),
+        InlineKeyboardButton('Feedback', url='https://telegram.me/Shinpei_XD')
         ],[
         InlineKeyboardButton('♨️ Help', callback_data='help'),
         InlineKeyboardButton('ⓘ About', callback_data='about'),
