@@ -30,7 +30,7 @@ AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "").split( ))
 PROCESS_MAX_TIMEOUT = int(os.environ.get("TIME_LIMIT"))
 ADL_BOT_RQ = {}
 START_TEXT = """
-Hello {},\nI'm a Simple Telegram File or Media RenameBot v2 with Permanent Thumbnail Support. 🔥
+Hello {},\nI'm a Aero Telegram File or Media Aero Renmaer  with Permanent Thumbnail Support. 🔥
 
 Made by Mr. @Dlaize
 """
