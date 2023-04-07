@@ -206,7 +206,7 @@ async def show_thumb(bot, update):
     else:
         await bot.send_message(
             chat_id=update.chat.id,
-            text="<b>🖼️ No thumbnails found ☠️</b>",
+            text="<b>🖼️ aero No thumbnails found ☠️</b>",
             reply_to_message_id=update.message_id
         )
 
