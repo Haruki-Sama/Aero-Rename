@@ -32,7 +32,7 @@ ADL_BOT_RQ = {}
 START_TEXT = """
 Hello {},\nI'm a Aero Telegram File or Media Aero Renmaer  with Permanent Thumbnail Support. 🔥
 
-Made by Mr. @Dlaize
+Made by Mr. @Shinpei_XD
 """
 HELP_TEXT = """
 <b><u>Rename</u></b>
@@ -51,10 +51,10 @@ HELP_TEXT = """
 Made by @Dlaize
 """
 ABOUT_TEXT = """
-**🎗️ Bot :** `RenameBot v2`
-**🎗️ Creator :** [Dlaize](https://telegram.me/Dlaize)
-**🎗️ Channel :** [Compass Bots](https://telegram.me/compass_botz)
-**🎗️ Source :** [Click here](https://github.com/dakshkohli23/Rename-Bot-V2)
+**🎗️ Bot :** `Aero Rename`
+**🎗️ Creator :** [Shinpei_XD](https://telegram.me/Shinpei_XD)
+**🎗️ Channel :** [Aero Bots](https://telegram.me/Aerobots_tm)
+**🎗️ Source :** [Aero Repo here](https://github.com/Haruki-Sama/Aero-Rename)
 **🎗️ Language :** [Python3](https://python.org)
 **🎗️ Library :** [Pyrogram v1.2.0](https://pyrogram.org)
 **🎗️ Server :** [Heroku](https://heroku.com)
@@ -159,7 +159,7 @@ async def save_photo(bot, update):
         )
         await bot.send_message(
             chat_id=update.chat.id,
-            text="<b>🖼️ Thumbnail Saved ☑️\nThis Is Permanent Until</b> /delthumb ",
+            text="<b>🖼️ Aero Thumbnail Saved ☑️\nThis Is Permanent Until</b> /delthumb ",
             reply_to_message_id=update.message_id
         )
 
@@ -178,7 +178,7 @@ async def delete_thumbnail(bot, update):
         pass
     await bot.send_message(
         chat_id=update.chat.id,
-        text="<b>🖼️ Thumbnail cleared succesfully🤦</b>",
+        text="<b>🖼️ Aero Thumbnail cleared succesfully🤦</b>",
         reply_to_message_id=update.message_id
     )
 
@@ -238,7 +238,7 @@ async def filter(bot, update):
     await bot.send_message(
         chat_id=update.chat.id,
         text=f"<b>📂 File Name</b> : <code>{filename}</code> \n\nSelect the desired option below 😇",
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="🖊️ RENAME", callback_data="rename")],
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="🖊️ Aero RENAME", callback_data="rename")],
                                                 [InlineKeyboardButton(text="✖ CANCEL", callback_data="cancel")]]),
         parse_mode="html",
         reply_to_message_id=update.message_id,
